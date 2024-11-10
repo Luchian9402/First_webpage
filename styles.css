@@ -1,3 +1,6 @@
+img {
+  box-sizing: border-box;
+}
 a {
   display: flex;
   text-decoration: none;
@@ -41,17 +44,19 @@ h1 {
  display: flex;
  justify-content: space-between;
  background-color:#1F2937;
+ height: 400px;
 }
 .top-left {
   color: #F9FAF8;
   margin-left: 100px;
 }
-.thor {
+.odin {
   display: flex;
   height: 300px;
   width: 350px;
   margin: 100px;
   margin-top: 50px;
+  flex: 0;
 }
 .second {
   font-size: 18px;
@@ -59,6 +64,47 @@ h1 {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+.thor {
+  max-height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  object-fit: cover;
+}
+.freyja {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  font-size: 24px;
+  flex-direction: column;
+}
+.balder {
+  height: 150px;
+  width: 150px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.loki {
+  height: 150px;
+  width: 150px;
+  font-size: 24px;
   display: flex;
   flex-direction: column;
 }
