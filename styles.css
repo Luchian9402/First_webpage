@@ -108,3 +108,45 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+.middle {
+  display: flex;
+  background-color: #E5E7EB;
+  margin-top: 64px;
+  flex-direction: column;
+  align-items: center;
+}
+.quote {
+  display: flex;
+  font-size: 16px;
+  color: #1F2937;
+  font: "light italic";
+  flex-wrap: wrap;
+  max-height: 600px;
+  max-width: 300px;
+}
+.name {
+  margin-left: 300px;
+  font-size: 24px;
+}
+.bottom {
+  display: flex;
+  background-color: #3882F6;
+  justify-content: center;
+  gap: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+}
+.action {
+  font-size: 24px;
+}
+.sign {
+  margin-top: 24px;
+}
+.fotter {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
+
